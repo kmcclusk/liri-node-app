@@ -1,0 +1,29 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "application that accepts text based commands",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmcclusk/liri-node-app.git"
+  },
+  "keywords": [
+    "twitter",
+    "spotify",
+    "omdb"
+  ],
+  "author": "Kate Kearney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmcclusk/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/kmcclusk/liri-node-app#readme",
+  "dependencies": {
+    "require": "^2.4.20",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.0"
+  }
+}
